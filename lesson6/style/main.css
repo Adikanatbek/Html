@@ -1,0 +1,156 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.square {
+    width: 300px;
+    height: 300px;
+    background: orange;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+
+    animation-name: square;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+
+}
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 150px solid transparent;
+    border-right: 150px solid transparent;
+    border-bottom: 100px solid blue;
+    position: absolute;
+    top: 34.1%;
+    left: 40%;
+
+    animation-name: triangle;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+
+}
+.circle {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: rgb(169, 177, 179);
+    position: absolute;
+    top: 38%;
+    left: 49%;
+    
+    animation-name: circle;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+
+}
+.window {
+    width: 100px;
+    height: 100px;
+    background: red;
+    position: absolute;
+    top: 58%;
+    left: 45%;
+
+    animation-name: window ;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+
+}
+.smoke {
+    width: 40px;
+    height: 100px;
+    background: brown;
+    position: absolute;
+    top: 30%;
+    left: 45%;
+    z-index: -2;
+
+    animation-name: smoke;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+}
+.triangle:hover {
+    animation-play-state: paused;
+}
+@keyframes square {
+    from {
+        top: 60%;
+        left: 65%;
+    }
+    to {
+        top: 50%;
+        left: 40%;
+    }
+}
+@keyframes triangle {
+    from {
+        top: 35%;
+        left: 12%;
+    }
+    to {
+        top: 34.1%;
+        left: 40%;
+    }
+}
+@keyframes circle {
+    from {
+        top: 18%;
+        left: 89%;
+    }
+    to {
+        top: 38%;
+        left: 49%;
+    }
+}
+@keyframes window {
+    from {
+        top: 100%;
+        left: 45%;
+    }
+    to {
+        top: 58%;
+        left: 45%;
+    }
+}
+@keyframes smoke {
+    from {
+        top: 3%;
+        left: 45%;
+    }
+    to {
+        top: 30%;
+        left: 45%;
+} */
+
+img {
+    width: 200px;
+    position: absolute;
+}
+.first {
+    top: 35%;
+    left: 40%;
+    animation: first 5s linear infinite;
+}
+.second {
+    top: 41%;
+    left: 54%;
+    animation: first 5s linear infinite;
+}
+@keyframes first {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+@keyframes first {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(-360deg);
+    }
+}

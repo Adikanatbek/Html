@@ -1,0 +1,27 @@
+.block {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(100, 100, 5, 0.2);
+    background-image: url(/block.jpg);
+
+    /* background-repeat: repeat; */
+    /* background-repeat: no-repeat; */
+    /* background-repeat: repeat-x; */
+    /* background-repeat: repeat-y; */
+    /* background-repeat: space; */
+    /* background-repeat: round; */
+
+
+    /* background-position: 0 0; */
+
+    /* background-attachment: fixed; */
+    /* background-attachment: scroll; */
+
+    /* background-size: auto auto;
+    background-size: 100% auto;
+    background-size: 100% 100%; 
+    background-size: contain;
+    background-size: cover; */
+
+    background: url(/block.jpg) no-repeat, url(/hotel1.png) no-repeat 
+}

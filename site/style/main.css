@@ -1,0 +1,469 @@
+@import url('http://fonts.cdnfonts.com/css/balqis');
+header {
+    width: 100%;
+}
+.tour {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.tour img {
+    width: 100%;
+    position: absolute;
+}
+.tour a {
+
+    width: 10%;
+    z-index: 2; 
+    margin-top: 5%;
+    margin-right: 20%;
+    display: flex;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 28px;
+    text-decoration-line: underline;   
+}
+.vector {
+    position: absolute;
+    top: 12%;
+    left: 80%
+    
+} 
+.vector img {
+    width: 10px;
+    height: 10px;
+}
+.tel {
+    position: absolute;
+    top: 10%;
+    left: 82%
+    
+}
+.tel p {
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 28px;
+
+    color: #000000;
+}
+.text {
+    position: absolute;
+    width: 100%;
+    top: 10%;
+    right: 5%;
+}
+.text h1 {
+    display: flex;
+    justify-content: center;
+    font-family: Balqis;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 150px;
+    line-height: 334px;
+
+    color: #000000;
+}
+
+.tur {
+    width: 100%;
+    position: absolute;
+    top: 55%;
+    left: 55%
+
+}
+.tur h2 {
+    font-family: Roboto Condensed;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 66px;
+    color: #000000;
+}
+.body {
+    width: 100%;
+} 
+.vane {
+
+}
+.tail {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 55%;
+    margin-left: 10%;
+
+    font-family: Balqis;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 96px;
+    line-height: 128px;
+    color: #E2AB3F;
+}
+.ctrana  {
+    margin-top: -10%;
+    margin-left: 20%;
+    display: flex;
+
+
+    font-family: Roboto Condensed;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 66px;
+    color: #000000;
+}
+.dva img {
+    width: 550px;
+    height: 550px;
+}
+.content {
+    display: flex;
+    display: block;
+    align-items: flex-end;
+    margin-top: -40%;
+    margin-left: 53%;
+}
+.tri img {
+    width: 650px;
+    height: 900px;
+    margin-left: 50%;
+    margin-top: -15%;
+}
+.trip {
+    margin-left: 10%;
+    margin-top: 15%;
+
+    font-family: Balqis;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 96px;
+    line-height: 128px;
+    color: #E2AB3F;
+}
+.marwrut {
+    margin-left: 25%;
+    margin-top: -10%;
+    
+    font-family: Roboto Condensed;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 66px;
+    color: #000000;
+}
+.den {
+    margin-top: -60%;
+    margin-left: 12%;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 28px;
+
+    color: #000000;
+}
+.book {
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #ccc;
+    background: #FFFFFF;
+    border: 1px solid #E2AB3F;
+    box-sizing: border-box;
+}
+a:hover {
+    background-color: saddlebrown;
+}
+.hotel1 {
+    margin-left: 10%;
+
+    font-family: Balqis;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 96px;
+    line-height: 128px;
+    color: #E2AB3F;
+}
+.sultan {
+    margin-top: -10%;
+    margin-left: 20%;
+
+    font-family: Roboto Condensed;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 66px;
+    color: #000000;
+}
+.hotel img {
+    margin-left: 10%;
+}
+
+
+.hoteltxt p {
+    margin-left: 52%;
+    margin-top: -24%;
+    margin-right: 5%
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 22px;
+    color: #000000;
+}
+.photo img {
+    margin-left: 51%;
+    margin-top: 10%;
+}
+.foto {
+    margin-left: 75%;
+    margin-top: -12%
+}
+.price {
+    margin-left: 10%;
+    font-family: Balqis;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 96px;
+    line-height: 128px;
+    color: #E2AB3F;
+}
+.uslugi {
+    margin-left: 20%;
+    margin-top: -10%;
+
+    font-family: Roboto Condensed;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 66px;
+    color: #000000;
+}
+.sena {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 20%;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #000000;
+}
+.vkl {
+    margin-left: 7%;
+    margin-right: 55%;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 21px;
+    color: #000000;
+}
+.ankara {
+    margin-left: 50%;
+    margin-right: 5%;
+    margin-top: -14%;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 21px;
+    color: #000000;
+}
+.shar {
+    margin-left: 80%;
+    margin-top: -18%;
+}
+.shar1 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    margin-left: -25%;
+    margin-top: 7%;
+}
+.shar2 {
+    width: 100px;
+    height: 100px;
+    margin-left: -22%;
+}
+.war {
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 50% ;
+}
+
+
+.dt {
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 10%;
+
+    font-family: Balqis;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 96px;
+    line-height: 128px;
+    color: #E2AB3F;
+}
+.dl {
+    position: absolute;
+    margin-top: 24%;
+    margin-left: 15%;
+
+    font-family: Balqis;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 96px;
+    line-height: 128px;
+    color: #E2AB3F;
+} 
+.bl {/* background-image: url(/back.jpg); */
+    position: absolute;
+    margin-top: 17%;
+    margin-left: 20%;
+
+    font-family: Roboto Condensed;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 66px;
+    color: #000000;
+}
+.st {
+    position: absolute;
+    margin-left: 25%;
+    margin-top: 30%;
+
+    font-family: Roboto Condensed;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 66px;
+    color: #000000;
+}
+.ot {
+    position: absolute;
+    margin-top: 40%;
+    margin-left: 5%;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+.form-control {
+    position: absolute;
+    margin-top: 47%;
+    margin-left: 15%;
+}
+.formcontrol {
+    position: absolute;
+    margin-top: 51%;
+    margin-left: 15%;
+}
+.bb {
+    position: absolute;
+    margin-top: 58%;
+    margin-left: 15%;
+
+    color: #ccc;
+    background: #FFFFFF;
+    border: 1px solid #E2AB3F;
+    box-sizing: border-box;
+    weight: 30px;
+} 
+.foter {
+    display: flex;
+    justify-content: center;    
+    margin-top: 75%;
+    width: 100%;
+}
+foter img {
+    width: 100%;
+    /* position: absolute; */
+}
+.dream {
+    position: absolute;
+    margin-top: 40%;
+    margin-left: 25%;
+
+    font-family: Balqis;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 66px;
+    line-height: 115px;
+    color: #000000;
+}
+.con {
+    position: absolute;
+    margin-top: 15%;
+    margin-right: 45%;
+}
+.cnt {
+    position: absolute;
+    margin-top: 20%;
+    margin-right: 45%;
+
+    font-family: Balqis;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 66px;
+    line-height: 128px;
+    color: #E2AB3F;
+}
+.vec {
+    position: absolute;
+    margin-top: 29.5%;
+    margin-right: 60%;
+    width: 30px;
+    height: 30px;
+}
+.nomer {
+    position: absolute;
+    margin-top: 30%;
+    margin-right: 50%;
+    width: 30px;
+    height: 30px;
+} 
+.mail {
+    position: absolute;
+    margin-top: 33%;
+    margin-right: 40%;
+} 
+.mail1 {
+    position: absolute;
+    margin-top: 32.5%;
+    margin-right: 61%;
+}
+.you {
+    position: absolute;
+    margin-top: 37%;
+    margin-right: 51%;
+}
+.ist {
+    position: absolute;
+    margin-top: 37%;
+    margin-right: 45%;
+}
+.face {
+    position: absolute;
+    margin-top: 37%;
+    margin-right: 38%;
+}
